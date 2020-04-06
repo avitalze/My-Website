@@ -1,0 +1,203 @@
+#menu
+{
+	position: fixed;
+	width: 100%;
+	background: rgb(104, 186, 253);
+	overflow: auto;
+	top: 0;
+	padding-bottom: 10px;
+	margin-left: -8px;
+	
+}
+
+html, body 
+{
+	height: 100%;
+}
+.all{
+	height: 100%;
+	
+}
+
+
+.h3{width: 100%; }
+
+.h1{
+	margin: 10px 0 20px;
+	display: block;
+    font-size: 2em;
+    align-self: center;
+    width: 100%; 
+    text-align: center;
+}
+
+h1 span { 
+    padding:0 10px;
+}
+
+
+body{
+	background-image: url(back.PNG);
+	-webkit-backdrop-size:color;
+	background-size: cover;
+	height: 100%;
+    box-sizing: border-box;
+	font-family:Arial, Helvetica, sans-serif; 
+	background-position: center;
+	background-size: 150% 100%;
+	background-attachment: fixed;
+	
+}
+
+menu ul
+{
+	list-style-type: none;
+}
+
+div ul li
+{
+	list-style-type: none;	
+	width: 170px;
+	float: left;
+	text-align: center;
+	
+}
+li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(5, 22, 37);
+	line-height:50px ;
+	display: block;
+	position: relative;
+	text-align: center;
+
+	padding: 4px 16px;
+	list-style: solid;
+	
+}
+
+li a:hover{
+	font-size: 20px;
+	background-color:rgb(56, 119, 255);
+	color: rgb(253, 252, 252);
+	width: 100%;
+	
+}
+*{
+	box-sizing: border-box;
+}
+
+.image1
+{
+	width: 100px;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	height: 100px;
+	padding: 5px;
+	
+  }
+  
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  p { 
+	margin: auto; /* Important */ 
+	text-align: center; 
+  }
+  
+  section {  
+	width: 100%; 
+	height: 500px; 
+	margin: 20px; 
+	
+	text-align: center; 
+	display: table;
+  } 
+
+  .wrapper {
+	border: 3px dashed #1c87c9;
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 1000px;
+	
+}       
+	.wrapper h3 {
+	display: block;
+	margin: 0 auto 5px auto;
+	width: 400px;
+	/*border-bottom: 1px solid #db1d8c;*/
+	padding: 0 0 20px 0;
+	padding:0 10px;
+}
+.ans{
+	text-align: left; 
+	margin: 15px; 
+
+}
+
+.myself{
+	text-align: left; 
+	margin: 15px; 
+
+}
+
+.ansH p{
+	text-align: center;
+	width: 100px;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.ansH {
+	width: 80%;
+    height: 500px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.imageAnss
+{
+	width: 100px;
+	height: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.im{
+	width: 80%;
+          height: 500px;
+          border: 5px solid white;
+          border-radius: 10px;
+}
+.button {
+	font-family:Arial, Helvetica, sans-serif ;
+	background-color: rgb(104, 186, 253);
+	border: 1px #CA924C	; 
+	color: rgb(255, 254, 251);
+	font-size: 15px;
+	border-radius: 2px;
+	transition-duration: 0.5s;
+	border-radius: 5px;
+	padding: 10px 20px;
+
+  }
+  .button:hover {
+	background-color: rgb(56, 119, 255);
+	color: rgb(246, 247, 242);
+  }
